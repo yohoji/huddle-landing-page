@@ -4,31 +4,29 @@
     margin: 0;
     padding: 0;
 }
-
-@media (min-width: 1440px) {
-    body {
-        height:90vh;
-        background: url(images/bg-desktop.svg) no-repeat left center fixed;
-        background-size: contain;
-        background-color: hsl(257, 40%, 49%);
-        position: relative;
-        overflow: hidden;
-    }
-    .logo {
-        margin: 50px 5px 50px 63px;
-    }
-    .bg {
-        display: inline-block;
-    }
-    .ill-img {
+body {
+    height:90vh;
+    background: url(images/bg-desktop.svg) no-repeat left center fixed;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    position: relative;
+    overflow: hidden;
+}
+.logo {
+    margin: 50px 5px 50px 63px;
+}
+.bg {
+    display: inline-block;
+}
+.ill-img {
     position:relative;
-    left: 70px;
-    top: 25px;
+    left: 230px;
+    top: 70px;
     }
     .main-text {
         position: absolute;
-        left: 830px;
-        bottom: 250px;
+        left: 1000px;
+        bottom: 405px;
         display: inline-block;
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -62,8 +60,8 @@
     .social-m {
         float:right;
         position:relative;
-        top: 550px;
-        right:100px;
+        top: 720px;
+        right:300px;
     }
     .fb-logo,.tw-logo,.in-logo {
         padding:10px;
@@ -85,5 +83,29 @@
     .fb-logo:hover {
             padding:10px 12px;
     }
+@media (max-width: 1440px) {
+    .ill-img {
+    position:relative;
+    left: 70px;
+    top: 25px;
+    }
+    .main-text {
+        position: absolute;
+        left: 830px;
+        bottom: 250px;
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: white;
+        padding-right: 150px;
+    }
+    .social-m {
+        float:right;
+        position:relative;
+        top: 550px;
+        right:100px;
+    }
+
 
 }
